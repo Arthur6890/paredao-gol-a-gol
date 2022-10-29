@@ -1,16 +1,122 @@
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 30px;
-    background: #2E2E2E;
+.main {
+	display: flex;
+	padding: 10px 0;
+	background-color: #353535;
+	// background: #161616;
+	color: #ffffff;
+	width: 100%;
+
+	@media screen and (max-width: 1023px) {
+		padding: 10px 30px;
+	}
 }
 
-.image{
-    width: 10%;
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1246px;
+	margin: 0 auto;
 }
 
-.buttons{
+.image {
+	width: 10%;
 
+	@media screen and (max-width: 1023px) {
+		width: 70%;
+
+		&:not(.responsive) {
+			width: 25%;
+		}
+	}
+}
+
+.buttonsDiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+
+	@media screen and (min-width: 1024px) and (max-width: 1439px) {
+		width: 45%;
+	}
+
+	@media screen and (max-width: 1023px) {
+		flex-direction: column;
+		width: 100%;
+
+		&:not(.responsive) {
+			display: none;
+		}
+	}
+
+	.button {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 32px;
+		letter-spacing: .2px;
+		padding: 4px 16px;
+		border-radius: 16px;
+		text-align: center;
+		text-transform: capitalize;
+		cursor: pointer;
+		transition: all .3s;
+		border: 1px solid #FE0000;
+		color: #FE0000;
+		text-decoration: none;
+		transition: all 0.3s;
+		width: 30%;
+
+		&:hover {
+			background: #FE0000;
+			color: #ffffff;
+		}
+
+		@media screen and (max-width: 1023px) {
+			width: 100%;
+
+			&:nth-child(2) {
+				margin: 40px 0;
+			}
+		}
+
+		&:not(.outlined) {
+			background: #FE0000;
+			color: #ffffff;
+
+			&:hover {
+				background: #850000;
+				border-color: #850000;
+			}
+		}
+
+
+	}
+}
+
+.responsiveMenu {
+
+	.responsiveToggle {
+		background: none;
+		border: none;
+
+		svg {
+			color: #FE0000;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
+}
+
+.offCanvasMenu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	padding: 25px 30px;
+	background-color: #353535;
 }
