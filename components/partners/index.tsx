@@ -2,6 +2,8 @@ import React from 'react'
 import styles from "./styles.module.scss"
 import GustaCar from "public/images/brands/GustaCar.png"
 import N1Goalkeeper from "public/images/brands/N1Goalkeeper.png"
+import Brasero from "public/images/brands/brasero.jpg"
+import Trijollet from "public/images/brands/marcosTrijollet.jpg"
 import Image from 'next/image'
 
 export function Partners() {
@@ -18,12 +20,12 @@ export function Partners() {
 				</div>
 
 				<div className={styles.gridItem}>
-					<Image src={N1Goalkeeper} alt="Imagem não encontrada" />
+					<Image src={Brasero} alt="Imagem não encontrada" />
 
 				</div>
 
 				<div className={styles.gridItem}>
-					<Image src={N1Goalkeeper} alt="Imagem não encontrada" />
+					<Image src={Trijollet} alt="Imagem não encontrada" />
 
 				</div>
 

@@ -14,7 +14,7 @@ export function Hero() {
 						Nós da Paredão Academia de Goleiros estamos sempre em busca não so da excelência técnica de nossos atletas, mas do crescimento de cada um de nossos alunos como humanos.
 						Pensando nisso realizamos o maior evento de integração entre goleiros, unindo o esporte à diversão, tornando nosso Gol a Gol uma experiência única.
 					</h3>
-					<Link href={"#"}>
+					<Link href={"/#subscriptionForm"}>
 						<a className={styles.button}>
 							Inscreva-se
 						</a>

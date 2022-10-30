@@ -15,7 +15,9 @@ export function Header() {
 
 
 			<div className={styles.image}>
-				<Image src={Logo} alt="Imagem não encontrada" />
+				<Link href={"/"}>
+					<Image src={Logo} alt="Imagem não encontrada" />
+				</Link>
 			</div>
 			<div className={styles.buttonsDiv}>
 				<Link href={"#"}>
@@ -28,7 +30,7 @@ export function Header() {
 						Galeria
 					</a>
 				</Link>
-				<Link href={"#"} className={styles.button}>
+				<Link href={"/#subscriptionForm"} className={styles.button}>
 					<a className={styles.button}>
 						inscreva-se
 					</a>
@@ -48,7 +50,9 @@ export function Header() {
 
 					<Box sx={{ width: 300 }} className={styles.offCanvasMenu}>
 						<div className={`${styles.image} ${styles.responsive}`}>
-							<Image src={Logo} alt="Imagem não encontrada" />
+							<Link href={"/"}>
+								<Image src={Logo} alt="Imagem não encontrada" />
+							</Link>
 						</div>
 						<div className={`${styles.buttonsDiv} ${styles.responsive}`}>
 							<Link href={"#"}>
@@ -61,7 +65,7 @@ export function Header() {
 									Galeria
 								</a>
 							</Link>
-							<Link href={"#"} className={styles.button}>
+							<Link href={"/#subscriptionForm"} className={styles.button}>
 								<a className={styles.button}>
 									inscreva-se
 								</a>

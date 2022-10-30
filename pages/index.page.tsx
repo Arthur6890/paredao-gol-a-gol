@@ -7,6 +7,8 @@ import { Card } from 'components/card'
 import GuyWithTrophy from "public/images/photos/campeao2.jpeg"
 import GuyShootingABall from "public/images/photos/fatiada.jpeg"
 import EverybodyTogether from "public/images/photos/todosJuntos.jpeg"
+import { Footer } from 'components/footer'
+import { Form } from 'components/form'
 
 const Home: NextPage = () => {
 	return (
@@ -35,6 +37,9 @@ const Home: NextPage = () => {
 				subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet imperdiet sem, vitae tempus sapien. Vestibulum efficitur justo nec lacus pretium, in interdum nisi mollis.'
 				imageUrl={EverybodyTogether}
 			/>
+			<Form />
+			<Footer />
+
 		</div>
 	)
 }

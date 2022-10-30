@@ -1,0 +1,132 @@
+.main {
+	background: #353535;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1246px;
+	margin: 0 auto;
+	padding: 64px 0;
+	background: #353535;
+
+	@media screen and (max-width: 1023px) {
+		flex-direction: column;
+		align-items: center;
+		padding: 80px 24px;
+	}
+}
+
+.texts {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+
+	@media screen and (max-width: 1023px) {
+		width: 100%;
+		margin-bottom: 44px;
+	}
+
+	.title {
+		font-family: 'Space Grotesk', sans-serif;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 64px;
+		margin-bottom: 0;
+		color: #ff0000;
+
+		@media screen and (max-width: 1023px) {
+			width: 100%;
+			font-size: 40px;
+			line-height: 48px;
+			text-align: center;
+		}
+	}
+
+	.subTitle {
+		font-family: 'Nunito', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 40px;
+		color: #ffffff;
+		margin-top: 16px;
+		margin-bottom: 0;
+
+		@media screen and (max-width: 1023px) {
+			text-align: center;
+		}
+
+	}
+}
+
+.form {
+	width: 50%;
+	border-radius: 16px;
+	padding: 32px;
+	background-color: #ffffff;
+
+	@media screen and (max-width: 1023px) {
+		width: 100%;
+	}
+
+	h2 {
+		margin-bottom: 32px;
+
+		@media screen and (max-width: 1023px) {
+			text-align: center;
+		}
+	}
+
+	.inputRow {
+		display: flex;
+		flex-direction: column;
+		height: 56px;
+		padding: 5px 19px 0 16px;
+		margin-bottom: 30px;
+		border-radius: 16px;
+		border: 1px solid #baabb2;
+
+		label {
+			font-family: 'Nunito', sans-serif;
+			font-size: 12px;
+			letter-spacing: .4px;
+			margin-bottom: 3px;
+			font-weight: 600;
+			color: #50494c;
+		}
+
+		input {
+			background: transparent;
+			border: none;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: .5px;
+			outline: none;
+			color: #000000;
+		}
+	}
+
+	.submitButton {
+		height: 56px;
+		border-radius: 16px;
+		border: none;
+		letter-spacing: .2px;
+		font-family: 'Nunito', sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 32px;
+		transition: all .3s;
+		margin-top: 10px;
+		width: 100%;
+		color: #fff;
+		background: #ff0000;
+
+		&:hover {
+			background: #920000;
+		}
+	}
+}
