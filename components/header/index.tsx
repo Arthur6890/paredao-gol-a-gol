@@ -20,7 +20,7 @@ export function Header() {
 				</Link>
 			</div>
 			<div className={styles.buttonsDiv}>
-				<Link href={"#"}>
+				<Link href={"/saiba-mais"}>
 					<a className={`${styles.button} ${styles.outlined}`}>
 						Saiba mais
 					</a>
@@ -55,7 +55,7 @@ export function Header() {
 							</Link>
 						</div>
 						<div className={`${styles.buttonsDiv} ${styles.responsive}`}>
-							<Link href={"#"}>
+							<Link href={"/saiba-mais"}>
 								<a className={`${styles.button} ${styles.outlined}`}>
 									Saiba mais
 								</a>

@@ -38,6 +38,14 @@ export function Form() {
 							<label>Telefone</label>
 							<input type="text" name='entry.307256129' placeholder='(31) 99999-9999' />
 						</div>
+						<div className={styles.inputRow}>
+							<label>Tamanho da camisa</label>
+							<input type="text" name='entry.864551610' placeholder='P - M - G' />
+						</div>
+						<div className={styles.inputRow}>
+							<label>Idade</label>
+							<input type="text" name='entry.1184073246' placeholder='18' />
+						</div>
 						<input type="submit" className={styles.submitButton} value="Quero participar" />
 					</form>
 				</div>

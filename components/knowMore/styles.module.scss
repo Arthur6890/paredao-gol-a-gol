@@ -1,0 +1,115 @@
+.main {
+	background: #161616;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 100vh;
+	max-width: 1246px;
+	margin: 0 auto;
+	padding: 80px 0;
+
+	@media screen and (max-width: 1023px) {
+		padding: 64px 24px;
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 16px;
+	padding: 32px;
+	margin: 0 auto;
+	width: 75%;
+	background: #353535;
+
+	@media screen and (max-width: 1023px) {
+		width: 100%;
+	}
+}
+
+.title {
+	font-family: 'Space Grotesk', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 32px;
+	margin: 0;
+	color: #ff0000;
+
+	@media screen and (max-width: 1023px) {
+		font-size: 30px;
+		line-height: 25px;
+	}
+}
+
+.text {
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 35px;
+	color: #ffffff;
+
+	@media screen and (max-width: 1023px) {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+
+.buttonsDiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+
+	@media screen and (max-width: 1023px) {
+		flex-direction: column;
+	}
+}
+
+.button {
+	padding: 10px;
+	border-radius: 16px;
+	letter-spacing: .2px;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	transition: all .3s;
+	margin-top: 10px;
+	width: 30%;
+	color: #ffffff;
+	background: #ff0000;
+
+	&.outlined {
+		border: 1px solid #ff0000;
+		color: #ff0000;
+		background: none;
+
+		&:hover {
+			background: #ff0000;
+			color: #ffffff;
+		}
+
+		@media screen and (max-width: 1023px) {
+			margin-bottom: 15px;
+		}
+	}
+
+
+	@media screen and (max-width: 1023px) {
+		width: 100%;
+
+	}
+
+	&:hover {
+		background: #920000;
+	}
+}

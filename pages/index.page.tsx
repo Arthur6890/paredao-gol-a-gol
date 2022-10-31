@@ -4,7 +4,7 @@ import { Header } from 'components/header'
 import { Hero } from 'components/hero'
 import { Partners } from 'components/partners'
 import { Card } from 'components/card'
-import GuyWithTrophy from "public/images/photos/campeao2.jpeg"
+import GuysWithTrophy from "public/images/photos/campeao2.jpeg"
 import GuyShootingABall from "public/images/photos/fatiada.jpeg"
 import EverybodyTogether from "public/images/photos/todosJuntos.jpeg"
 import { Footer } from 'components/footer'
@@ -22,20 +22,20 @@ const Home: NextPage = () => {
 			<Header />
 			<Hero />
 			<Partners />
-			<Card title='Lorem Ipsum dolor sit amet, {*consectetur adipiscing*} elit.'
-				subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet imperdiet sem, vitae tempus sapien. Vestibulum efficitur justo nec lacus pretium, in interdum nisi mollis.'
-				imageUrl={GuyWithTrophy}
+			<Card title='Participantes da {*primeira edição*} do Gol a Gol'
+				subtitle='Foram 28 goleiros em busca de ser o grande campeão, com partidas emocionantes e bem disputadas!'
+				imageUrl={EverybodyTogether}
 			/>
 
-			<Card title='Lorem Ipsum {*dolor sit amet*}, consectetur adipiscing elit.'
-				subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet imperdiet sem, vitae tempus sapien. Vestibulum efficitur justo nec lacus pretium, in interdum nisi mollis.'
-				imageUrl={GuyShootingABall}
+			<Card title='Os {*grandes finalistas*} do torneio'
+				subtitle='Uma final de tirar o fôlego, dois grandes competidores ótimas defesas e belos chutes, uma final GIGANTESCA!'
+				imageUrl={GuysWithTrophy}
 				reverse
 			/>
 
-			<Card title='{*Lorem Ipsum*} dolor sit amet, {*consectetur adipiscing*} elit.'
-				subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet imperdiet sem, vitae tempus sapien. Vestibulum efficitur justo nec lacus pretium, in interdum nisi mollis.'
-				imageUrl={EverybodyTogether}
+			<Card title='Vem aí a {*segunda edição*}'
+				subtitle='Pensando no grande sucesso da nossa primeira edição, a segunda será ainda melhor, contamos com todos vocês! Venha fazer parte desse grande evento!!!'
+				imageUrl={GuyShootingABall}
 			/>
 			<Form />
 			<Footer />
