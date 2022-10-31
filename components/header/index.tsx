@@ -25,7 +25,7 @@ export function Header() {
 						Saiba mais
 					</a>
 				</Link>
-				<Link href={"#"}>
+				<Link href={"/galeria"}>
 					<a className={`${styles.button} ${styles.outlined}`}>
 						Galeria
 					</a>
@@ -60,7 +60,7 @@ export function Header() {
 									Saiba mais
 								</a>
 							</Link>
-							<Link href={"#"}>
+							<Link href={"/galeria"}>
 								<a className={`${styles.button} ${styles.outlined}`}>
 									Galeria
 								</a>
