@@ -8,10 +8,14 @@ export function KnowMore() {
 			<div className={styles.container}>
 				<div className={styles.content}>
 					<h2 className={styles.title}>
-						Lorem ipsum
+						Como funciona o evento?🤔
 					</h2>
 					<h3 className={styles.text}>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat erat id turpis consequat, id commodo massa rhoncus. Sed lectus sapien, fringilla quis massa eu, auctor tincidunt magna. Nunc sollicitudin, mi vel consectetur porta, justo arcu ullamcorper enim, a volutpat felis massa id dolor. Pellentesque dictum dolor nec dolor egestas consequat non eu erat. Curabitur bibendum sodales blandit. Curabitur vel magna nibh. Donec nec enim imperdiet felis imperdiet venenatis. Morbi fermentum vulputate tellus. Nulla blandit tempus est et egestas. , id commodo massa rhoncus. Sed lectus sapien, fringilla quis massa eu, auctor tincidunt magna. Nunc sollicitudin, mi vel consectetur porta, justo arcu ullamcorper enim, a volutpat felis massa id dolor. Pellentesque dictum dolor nec dolor egestas consequat non eu erat. Curabitur bibendum sodales blandit. Curabitur vel magna nibh. Donec nec enim imperdiet felis imperdiet venenatis. Morbi fermentum vulputate tellus. Nulla blandit tempus est et egestas. Etiam ultrices ultricies risus quis interdum.
+						A competição é a famosa disputa de jogos conhecidos como “Gol a Gol”, comuns nas escolas e brincadeiras entre amigos que gostam do futebol, contudo esta é adaptada para os arqueiros mostrarem do que são capazes e que também são ótimos jogadores com os pés.
+						<br />
+						Os participantes, além de estarem competindo, demonstram suas habilidades e treinam chutes e defesas no gol.
+						<br />
+						O Gol a Gol explora dois fundamentos: o “tiro de gol”, quando a bola é lançada de uma longa distância e a defesa desses chutes.
 					</h3>
 					<div className={styles.buttonsDiv}>
 						<Link href={"/docs/Regulamento.pdf"}>

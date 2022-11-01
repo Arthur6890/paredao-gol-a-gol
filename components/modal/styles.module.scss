@@ -1,0 +1,29 @@
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 25px;
+	display: flex;
+
+	button {
+		display: flex;
+		border: none;
+		background: none;
+		padding: 0;
+		transition: all 2s ease-in-out;
+		cursor: pointer;
+		width: 100%;
+
+		&:hover {
+			transform: scale(1.3);
+		}
+	}
+}
+
+.imageOpen {
+	display: flex;
+	box-shadow: 2px 3px 15px 3px #000000;
+
+	@media screen and (max-width: 1023px) {
+		margin: 10px;
+	}
+}
