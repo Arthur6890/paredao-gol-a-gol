@@ -23,7 +23,7 @@ export function KnowMore() {
 						Para confirmar sua inscrição basta fazer o pagamento da inscrição. Ao preencher o formulário você será redirecionado para a página na qual você deverá anexar o comprovante de pagamento.
 						<br />
 						<br />
-						O valor da inscrição é R$ 0,00 e a chave para pagamento via pix é adalbertodioliveira@gmail.com
+						O valor da inscrição é R$ 70,00 e a chave para pagamento via pix é adalbertodioliveira@gmail.com
 						<br />
 						<br />
 						O evento acontecerá na Arena Comercial localizada no endereço R. Américo Magalhães, 375 - Barreiro, Belo Horizonte
