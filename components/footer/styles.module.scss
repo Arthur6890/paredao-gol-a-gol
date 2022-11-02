@@ -34,6 +34,10 @@
 	display: flex;
 	flex-direction: column;
 
+	&:nth-child(3) {
+		margin: 20px 0;
+	}
+
 	h2 {
 		font-weight: 700;
 		text-transform: uppercase;
@@ -44,15 +48,30 @@
 		color: #ffffff;
 
 		@media screen and (max-width: 1023px) {
-			font-size: 23px;
 			line-height: 1.2em;
+			text-align: center;
+
 		}
 	}
 
-	a {
+	a,
+	span {
 		font-size: 15px;
 		margin: 5px 0;
 		color: #ffffffb3;
+		transition: all 0.3s;
+
+		&:nth-child(3) {
+			color: #ff0000
+		}
+
+		&:hover {
+			color: #810000;
+		}
+
+		@media screen and (max-width: 1023px) {
+			text-align: center;
+		}
 	}
 }
 

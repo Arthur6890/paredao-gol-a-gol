@@ -10,50 +10,50 @@ import Trophy from "public/images/photos/trofeus.jpeg"
 
 export const GaleryImages = [
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 800,
+		widthWhenOpen: 675,
 		imageUrl: Champion
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 600,
+		widthWhenOpen: 800,
 		imageUrl: Champion2
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 575,
+		widthWhenOpen: 740,
 		imageUrl: Interview
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 800,
+		widthWhenOpen: 675,
 		imageUrl: Champion3
 	},
 
 
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 575,
+		widthWhenOpen: 740,
 		imageUrl: GuyKicking
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 575,
+		widthWhenOpen: 740,
 		imageUrl: Trophy
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 800,
+		widthWhenOpen: 675,
 		imageUrl: Champions
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 575,
+		widthWhenOpen: 740,
 		imageUrl: People
 	},
 	{
-		heightWhenOpen: 100,
-		widthWhenOpen: 100,
+		heightWhenOpen: 575,
+		widthWhenOpen: 740,
 		imageUrl: EverybodyTogether
 	},
 

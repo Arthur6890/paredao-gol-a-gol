@@ -22,7 +22,21 @@ export function Footer() {
 					<h2>Alguma dúvida?</h2>
 					<Link href={"https://wa.me/5531982598036"}>
 						<a target="_blank" rel="noopener noreferrer">
-							Entre em contato conosco!
+							Clique aqui e entre
+							<br /> em contato conosco!
+						</a>
+					</Link>
+				</div>
+
+				<div className={styles.anyDoubt}>
+					<h2>Agradecimento especial</h2>
+					<span>
+						Um agradecimento especial para
+						<br />Arthur Ramos, desenvolvedor deste site!
+					</span>
+					<Link href={"https://wa.me/5531982598036"}>
+						<a target="_blank" rel="noopener noreferrer">
+							Clique aqui para entrar em contato com Arthur!
 						</a>
 					</Link>
 				</div>
