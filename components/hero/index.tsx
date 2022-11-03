@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Trofeus from "public/images/photos/trofeus.jpeg"
+import Flyer from "public/images/photos/flyer.png"
 import styles from "./styles.module.scss"
 import Link from 'next/link'
 
@@ -21,7 +21,7 @@ export function Hero() {
 					</Link>
 				</div>
 				<div className={styles.image}>
-					<Image src={Trofeus} alt="Imagem não encontrada" />
+					<Image src={Flyer} alt="Imagem não encontrada" />
 				</div>
 
 
