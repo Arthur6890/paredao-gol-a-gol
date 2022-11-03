@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import styles from "./styles.module.scss"
 
@@ -11,6 +12,13 @@ export function Form() {
 					</h2>
 					<h3 className={styles.subTitle}>
 						Preencha o formulário e venha você também participar deste gigante evento!
+					</h3>
+					<h3 className={styles.subTitle}>
+						Ou caso tenha algum problema, clique
+						<Link href={"https://forms.gle/9kpRppXQP1YY8c7x7"}>
+							<a target="_blank" rel="noopener noreferrer"> aqui </a>
+						</Link>
+						para usar o formulário do Google
 					</h3>
 				</div>
 				<div className={styles.form}>
